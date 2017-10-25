@@ -9,4 +9,12 @@ The serverless backend is written in JavaScript and deployed to MS Azure Functio
 
 The backend is also connected to a database (we are using Google Firebase as it's RESTful, NoSQL & completely FREE) in order to do CRUD operations and store data.
 
-This is my very first time doing something quick and fun (pretty dirty as well) using the MS Azure Function & Firebase (Yes, I learned to use those technologies during the hackathon too :P).
+The backend is also connected to Twilio Messaging System that allows to send text messages to the user's phone as a sleep time / wakeup time reminder.
+
+### Functionalities:
+- Signin / Signup (yes, I do hash the password for the user)
+- Store your sleep data every night for the whole week
+- See your friend's sleep data (by providing the friend's username)
+- Set sleep time / wakeup time & text messages will be sent to the user's phone number at those times (via Twilio)
+
+This is my very first time doing something quick and fun (pretty dirty as well -> incomplete & insecure of course) using the MS Azure Function & Firebase.
