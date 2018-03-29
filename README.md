@@ -17,6 +17,6 @@ Twilio Messaging System is used to send text messages to the user's phone as a s
 - Signin / Signup
 - Store user sleep data every night for the whole week
 - See other users sleep data
-- Set sleep time / wakeup time which will notify at those times (via Twilio text messaging)
+- Set sleep time / wakeup time which will notify user at those times (via Twilio text messaging)
 
 This is my very first time doing something quick and fun (pretty dirty as well -> incomplete & insecure) using the MS Azure Function & Firebase.
