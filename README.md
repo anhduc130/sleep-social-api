@@ -11,7 +11,7 @@ The serverless backend is written in JavaScript and deployed to MS Azure Functio
 
 Google Firebase is used to do CRUD operations and store data which is RESTful, NoSQL & completely FREE 
 
-Twilio Messaging System sends text messages to the user's phone as a sleep time / wakeup time reminder.
+Twilio Messaging System is used to send text messages to the user's phone as a sleep time / wakeup time reminder.
 
 ### Functionalities:
 - Signin / Signup
