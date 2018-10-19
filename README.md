@@ -1,6 +1,6 @@
 # Sleep Social API (serverless backend) - A 24-hour hackathon in 2017
 
-A serverless backend API for an IOS application that record how much sleep a person has every night. 
+A serverless backend API for an IOS application that records how much sleep a person has every night. 
 
 Can generate fun facts and simple analysis on how healthy/productive the person is during the week/month based on the recorded data.
 
