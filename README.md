@@ -9,9 +9,9 @@ The main objective is to assist people with sleep disoders. People with sleep pr
 ### Architecture Design
 The serverless backend is written in JavaScript and deployed to MS Azure Function App. The API is triggered when there's a new request which will be filtered out based on the http request type and the header value.
 
-Google Firebase is used to do CRUD operations and store data which is RESTful, NoSQL & completely FREE 
+Google Firebase is used to do CRUD operations in real-time through its RESTful APIs. 
 
-Twilio Messaging System is used to send text messages to the user's phone as a sleep time / wakeup time reminder.
+Twilio Messaging System is used to send text messages to the user's phone as a sleep / wakeup time reminder.
 
 ### Functionalities:
 - Signin / Signup
